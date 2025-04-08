@@ -1,13 +1,14 @@
 # S2LIC: Learned Image Compression with the SwinV2 Block, Adaptive Channel-wise and Global-inter Attention Context
 
-[**📄 Paper on arXiv**](https://arxiv.org/abs/2403.14471)
-
+[**📄 Paper on arXiv**] 
+[![arXiv](https://img.shields.io/badge/arXiv-2403.19654-b31b1b.svg)](https://arxiv.org/abs/2403.14471)
 ---
 
 ## 🧠 Architectures
 
 ### Overall Framework
 ![Overall Framework](./assets/arch.png)
+
 
 ### Proposed Entropy Model
 ![Entropy Model](./assets/entropy.png)
@@ -18,49 +19,12 @@
 ## 📊 Evaluation Results
 
 ### RD Curves on Kodak
-![RD Curve](./assets/kodak.png)
+![RD Curve](./assets/kodak_psnr.png)
 
 ### Visual Quality Comparisons
 ![Visual Comparison](./assets/visual.png)
 
 ---
-
-✅ TODO List
-🔧 Code & Features
- Upload training and inference scripts
-
- Provide pretrained models (links and checkpoints)
-
- Add SwinV2-based encoder and decoder modules
-
- Implement ACGC (Adaptive Channel-wise and Global-inter Context) entropy model
-
- Modularize entropy coding and hyperprior network
-
- Add command-line tools for:
-
- Encoding/decoding images
-
- Evaluating metrics (PSNR, MS-SSIM, bpp)
-
-📚 Documentation
- Add detailed setup instructions (dependencies, installation, environment)
-
- Provide training logs and tips
-
- Add explanation for model architecture
-
- Write usage examples (scripts + CLI)
-
-📁 Dataset
- Include download instructions for benchmark datasets (Kodak, CLIC, etc.)
-
- Add preprocessing scripts
-
-📈 Evaluation
- Add RD curve plotting script
-
- Add qualitative comparison scripts
 
 ## 📄 Citation
 
@@ -78,11 +42,11 @@ If you find our project useful, please cite:
 ## 🙏 Acknowledgement
 This work is built on top of the following projects:
 
-CompressAI (https://github.com/InterDigitalInc/CompressAI)
+[CompressAI](https://github.com/InterDigitalInc/CompressAI)
 
-MLIC (https://github.com/JiangWeibeta/MLIC)
+[MLIC](https://github.com/JiangWeibeta/MLIC)
 
-TIC (https://github.com/lumingzzz/TIC)
+[TIC](https://github.com/lumingzzz/TIC)
 
 We thank the authors for sharing their excellent work.
 
